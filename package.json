@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-v5-project",
+  "version": "1.0.0",
+  "description": "Bootstrap v5 project with SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastian-zn/bootstrap-v5-project.git"
+  },
+  "keywords": [
+    "boostrap-v5",
+    "Bootstrap",
+    "sass",
+    "Sass",
+    "SASS"
+  ],
+  "author": "Sebastian Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebastian-zn/bootstrap-v5-project/issues"
+  },
+  "homepage": "https://github.com/Sebastian-zn/bootstrap-v5-project#readme",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2"
+  }
+}
