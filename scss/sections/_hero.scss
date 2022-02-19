@@ -1,0 +1,40 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.hero-section {
+  @include gradient;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.intros {
+  .video-box {
+    position: relative;
+    a {
+      span {
+        i {
+          color: $white;
+          font-size: 6rem;
+        }
+      }
+    }
+  }
+}
+
+.border-animation {
+  position: absolute;
+  top: 17%;
+  left: -6%;
+  width: 6.5rem;
+  height: 6.5rem;
+  border: .55rem solid $white;
+  border-radius: 50%;
+  animation: pulseBorder 1.5s linear infinite;
+  &__border-1 {
+    transition: 1s;
+  }
+  &__border-2 {
+    transition: 1.5s;
+  }
+}
