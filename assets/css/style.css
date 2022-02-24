@@ -4567,7 +4567,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 1.5rem;
   font-size: 1rem;
   color: #212529;
   text-align: left;
@@ -4650,7 +4650,7 @@ textarea.form-control-lg {
 }
 
 .accordion-body {
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .accordion-flush .accordion-collapse {
@@ -11327,6 +11327,52 @@ textarea.form-control-lg {
 }
 .services__pic {
   max-width: 100%;
+}
+
+.testimony {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(150, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+.testimony__card {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.testimony__card .bi-quote {
+  font-size: 1.5rem;
+  color: rgba(150, 38, 240, 0.7);
+}
+.testimony__card .ratings i {
+  color: rgba(150, 38, 240, 0.7);
+  font-size: 1rem;
+}
+.testimony__picture {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimony__picture img {
+  border: 0.4rem solid rgba(150, 38, 240, 0.7);
+}
+.testimony__name {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+.testimony__name h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.testimony__name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
