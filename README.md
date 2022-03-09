@@ -1,3 +1,3 @@
-#Bootstrap & SASS Proyect
+# Bootstrap & SASS Project
 
-Échale un vistazo al proyecto :D https://sebastian-zn.github.io/bootstrap-v5-project/
+<p>Échale un vistazo al proyecto :D <a href=">https://sebastian-zn.github.io/bootstrap-v5-project/">Bootstrap & SASS Project</a></p>
